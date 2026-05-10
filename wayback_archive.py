@@ -1,3 +1,10 @@
+"""
+title: wayback_archive
+author: Grok 4.3 + illsk1lls
+version: 1.0
+description: When a site is blocked, browse it's backup at the internet archive instead
+"""
+
 from typing import Optional
 from urllib.parse import quote
 
@@ -45,7 +52,6 @@ class Tools:
         archive_url = f"https://web.archive.org/web/{timestamp}/{target_url}"
         return archive_url
 
-    # Optional: You can also add this helper method if you want one-call convenience
     async def get_wayback_snapshot_url(
         self, target_url: str, timestamp: Optional[str] = None
     ) -> str:
