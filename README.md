@@ -5,4 +5,6 @@ Instructions for the model are contained in the tool, if it is tool aware you sh
 
 **get_sports.py** - Fetches live scores, upcoming games, and final results with times/dates for sporting events via ESPN free web API
 
+**send_sms** - Send SMS (TEXT) messages via waveshare SIM7600G-H 4G DONGLE LTE USB Adapter
+
 More coming soon...
